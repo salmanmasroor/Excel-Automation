@@ -23,7 +23,7 @@ for file in excel_files:
     
     output_path = os.path.join(output_folder, file)
     df.to_excel(output_path, index=False)
-    print(f"✅ Cleaned file saved: {output_path}")
+    print(f"Cleaned file saved: {output_path}")
 
 
 
